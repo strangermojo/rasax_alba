@@ -1,0 +1,109 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_questions
+- utter_balance
+- utter_carbon_footprint
+- utter_check_electric
+- utter_did_that_help
+- utter_energy_options
+- utter_energy_plan
+- utter_ev_rebates
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_how_it_works
+- utter_its_free
+- utter_recs
+- utter_recs_close
+- utter_recs_info
+- utter_save_electric
+- utter_savings
+- utter_security
+- utter_sign_up
+- utter_recs_what_are
+- utter_recs_intro
+intents:
+- affirm
+- ask_questions
+- carbon_footprint
+- check_electric
+- deny
+- energy_options
+- energy_plan
+- ev_rebates
+- goodbye
+- greet
+- how_it_works
+- its_free
+- mood_great
+- mood_unhappy
+- recs
+- recs_close
+- recs_info
+- save_electric
+- savings
+- security
+- sign_up
+- recs_what_are
+- recs_intro
+templates:
+  utter_ask_questions:
+  - text: You can ask me questions anytime and I'll get the data instantly.
+  utter_balance:
+  - text: 'Clean energy: 390 kWh 💡 Impact: 15 trees planted 🌱 Efficiency savings:
+      $120 💰'
+  utter_carbon_footprint:
+  - text: Need help improving your carbon footprint? I'll show you some options.
+  utter_check_electric:
+  - text: Would you like to check your electricity usage?
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: Did that help you?
+  utter_energy_options:
+  - text: Would you like to explore your energy options?
+  utter_energy_plan:
+  - text: It depends on your goals. I'll get to know you and make personalized suggestions.
+  utter_ev_rebates:
+  - text: Which EV rebate would you like?
+  utter_goodbye:
+  - text: Thank you, goodbye.
+  utter_greet:
+  - text: "Hello I'm Alba. Would you like to explore your energy options?\n"
+  utter_happy:
+  - text: Great carry on!
+  utter_how_can_help:
+  - text: How can I help?
+  utter_how_it_works:
+  - text: I'll have a look at your electricity usage & send you personalized updates.
+      I can help with savings and sustainability.
+  utter_its_free:
+  - text: Yes, it's completely free. I'm here to serve you and to make the world more
+      sustainable.
+  utter_recs:
+  - text: Congratulations. You just made the world more sustainable!
+  utter_recs_close:
+  - text: You can use RECs to offset your carbon footprint.
+  utter_recs_info:
+  - text: Renewable Energy Credits (RECs) are the easiest way to go green. It only
+      takes a few clicks.  We do the work for you.
+  utter_recs_intro:
+  - text: Renewable Energy Credits (RECs) are the easiest way to go green. It takes
+      just a few clicks. We do the work for you.
+  utter_recs_what_are:
+  - text: When renewable energy is produced and certified by the state. It earns Renewable
+      Energy Credits (RECs). These RECs can be sold by the producer at a market price
+      to utilities who have REC obligations. One REC is produced when one megawatt
+      hour (MWh) of electricity is generated from a renewable energy resource.
+  utter_save_electric:
+  - text: Want to save on your electricity bill? I'll suggest a plan.
+  utter_savings:
+  - text: Want to save money on your electricity bill?
+  utter_security:
+  - text: Security is my most important priority. I never share your log-in details.
+      Your data is encrypted with the highest standards in the energy industry.
+  utter_sign_up:
+  - text: Congratulations! You are one step closer to a sustainable life.
+  utter_what_questions:
+  - text: I can answer questions about your electricity usage and some ideas to help
+      you save money on your monthly bill.
